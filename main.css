@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#05070D;
+
+    color:white;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.boot-screen{
+
+    text-align:center;
+
+}
+
+.logo{
+
+    font-size:70px;
+
+    color:#00E5FF;
+
+    margin-bottom:20px;
+
+    letter-spacing:8px;
+
+}
+
+h3{
+
+    color:#d1d5db;
+
+    margin-bottom:30px;
+
+}
+
+#loadingText{
+
+    color:#00ffae;
+
+    font-size:22px;
+
+}

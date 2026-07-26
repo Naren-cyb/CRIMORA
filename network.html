@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIMORA - Criminal Network</title>
+    <!-- Path Fixed -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .network-container { background: #1e293b; border-radius: 10px; padding: 30px; border: 1px solid #334155; min-height: 500px; position: relative; overflow: hidden; }
+        .graph-placeholder { width: 100%; height: 400px; background: #0f172a; border: 1px dashed #475569; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-direction: column; color: #94a3b8; }
+        .graph-placeholder i { font-size: 40px; margin-bottom: 15px; color: #38bdf8; }
+        .controls { display: flex; gap: 15px; margin-bottom: 20px; }
+        select { padding: 10px; background: #0f172a; border: 1px solid #475569; color: white; border-radius: 5px; outline: none; }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="logo-box">
+        <!-- Path Fixed -->
+        <img src="assets/images/crimora-logo.jpg" alt="CRIMORA Logo" class="logo">
+        <h2>CRIMORA</h2>
+        <p>by CyberZyc</p>
+    </div>
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="fir.html"><i class="fa-solid fa-file"></i> FIR Management</a>
+    <a href="stations.html"><i class="fa-solid fa-building-shield"></i> Police Stations</a>
+    <a href="analytics.html"><i class="fa-solid fa-chart-line"></i> Analytics</a>
+    <a href="network.html" style="border-left: 4px solid #38bdf8; background-color: #334155; color: #38bdf8;"><i class="fa-solid fa-network-wired"></i> Crime Network</a>
+    <a href="police.html"><i class="fa-solid fa-user-shield"></i> Police Personnel</a>
+    <a href="reports.html"><i class="fa-solid fa-file-pdf"></i> Reports</a>
+    <a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a>
+</div>
+
+<div class="main">
+    <div class="topbar">
+        <h1>Criminal Syndicate Network</h1>
+        <div id="clock"></div>
+    </div>
+    <div class="controls">
+        <select><option>Select Region</option><option>North Zone</option><option>South Zone</option></select>
+        <select><option>Crime Type</option><option>Cyber Fraud</option><option>Smuggling</option></select>
+        <button style="padding: 10px 20px; background: #0284c7; color: white; border: none; border-radius: 5px; cursor: pointer;">Analyze Network</button>
+    </div>
+    <div class="network-container">
+        <div class="graph-placeholder">
+            <i class="fa-solid fa-project-diagram"></i>
+            <h3>Interactive Network Graph Area</h3>
+            <p style="margin-top: 10px; font-size: 14px;">(Connect Nodes: Suspects, Vehicles, Bank Accounts, Phone Numbers)</p>
+        </div>
+    </div>
+</div>
+
+<!-- Path Fixed -->
+<script src="js/dashboard.js"></script>
+</body>
+</html>

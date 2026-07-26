@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #0b1120; color: #e2e8f0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+.login-container { background: #1e293b; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); width: 100%; max-width: 400px; text-align: center; border: 1px solid #334155; }
+.logo { width: 80px; border-radius: 50%; margin-bottom: 15px; }
+.login-box h1 { color: #38bdf8; margin-bottom: 5px; font-size: 24px; }
+.login-box p { font-size: 14px; color: #94a3b8; margin-bottom: 25px; }
+input { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #475569; background: #0f172a; color: white; outline: none; }
+input:focus { border-color: #38bdf8; }
+button { width: 100%; padding: 12px; background: #0284c7; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background 0.3s; font-weight: bold; }
+button:hover { background: #0369a1; }
+#msg { margin-top: 15px; color: #ef4444; font-size: 14px; }

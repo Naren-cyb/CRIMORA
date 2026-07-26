@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIMORA Dashboard</title>
+
+    <!-- Path Fixed: Removed ../ -->
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <div class="logo-box">
+        <!-- Path Fixed: Removed ../ -->
+        <img src="assets/images/crimora-logo.jpg" alt="CRIMORA Logo" class="logo">
+        <h2>CRIMORA</h2>
+        <p>by CyberZyc</p>
+    </div>
+
+    <!-- Active style applied to Dashboard -->
+    <a href="dashboard.html" style="border-left: 4px solid #38bdf8; background-color: #334155; color: #38bdf8;"><i class="fa-solid fa-house"></i> Dashboard</a>
+
+    <a href="fir.html"><i class="fa-solid fa-file"></i> FIR Management</a>
+
+    <a href="stations.html"><i class="fa-solid fa-building-shield"></i> Police Stations</a>
+
+    <a href="analytics.html"><i class="fa-solid fa-chart-line"></i> Analytics</a>
+
+    <a href="network.html"><i class="fa-solid fa-network-wired"></i> Crime Network</a>
+
+    <a href="police.html"><i class="fa-solid fa-user-shield"></i> Police Personnel</a>
+
+    <a href="reports.html"><i class="fa-solid fa-file-pdf"></i> Reports</a>
+
+    <a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a>
+
+</div>
+
+<div class="main">
+
+    <div class="topbar">
+        <h1>CRIMORA Intelligence Dashboard</h1>
+        <div id="clock"></div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h2>1456</h2>
+            <p>Total FIR</p>
+        </div>
+
+        <div class="card">
+            <h2>278</h2>
+            <p>Active Cases</p>
+        </div>
+
+        <div class="card">
+            <h2>132</h2>
+            <p>Police Stations</p>
+        </div>
+
+        <div class="card">
+            <h2>91%</h2>
+            <p>AI Risk Score</p>
+        </div>
+    </div>
+
+    <h2 style="margin-bottom:20px;">Quick Actions</h2>
+
+    <div class="actions">
+        <button onclick="location.href='fir.html'">
+            ➕ New FIR
+        </button>
+
+        <button onclick="location.href='stations.html'">
+            👮 Police Stations
+        </button>
+
+        <button onclick="location.href='analytics.html'">
+            📊 Analytics
+        </button>
+
+        <button onclick="location.href='network.html'">
+            🌐 Crime Network
+        </button>
+
+        <button onclick="location.href='police.html'">
+            👮‍♂️ Police Personnel
+        </button>
+    </div>
+
+</div>
+
+<!-- Path Fixed: Removed ../ -->
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
